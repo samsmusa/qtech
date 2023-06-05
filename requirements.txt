@@ -1,0 +1,11 @@
+Django~=4.2.2
+djangorestframework~=3.14.0
+PyMySQL~=1.0.3
+django-filter~=23.2
+Pillow~=9.5.0
+python-decouple~=3.8
+drf-yasg~=1.21.5
+drf-nested-routers~=0.93.4
+django-cors-headers~=4.0.0
+django-seed
+django-userforeignkey~=0.5.0
