@@ -10,7 +10,7 @@ export default function PriceFilter() {
   const handleChange = (key) => (event) => {
     const value = parseFloat(event.target.value);
     setPriceRange((prev) => {
-      return { ...prev, [key]: value };
+      return { ...prev, [key]: value || 0 };
     });
   };
   const handleSubmit = () => {
